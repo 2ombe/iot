@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://2ombe.github.io/iot/",
+  "homepage": "http://2ombe/github.io/iot",
   "proxy": "http://hatangaiot.atwebpages.com/get_data.php",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.5.1",
     "bootstrap": "^5.3.2",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
@@ -47,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
