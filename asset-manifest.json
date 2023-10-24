@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github.io/iot/static/css/main.0f483243.css",
+    "main.js": "/github.io/iot/static/js/main.ab765828.js",
+    "static/media/background-image.jpg": "/github.io/iot/static/media/background-image.d15193b51ca844445d90.jpg",
+    "index.html": "/github.io/iot/index.html",
+    "main.0f483243.css.map": "/github.io/iot/static/css/main.0f483243.css.map",
+    "main.ab765828.js.map": "/github.io/iot/static/js/main.ab765828.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f483243.css",
+    "static/js/main.ab765828.js"
+  ]
+}
