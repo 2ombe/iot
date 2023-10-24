@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import 'react-toastify/dist/ReactToastify.css';
 import {Link} from "react-router-dom"
 import {LinkContainer} from "react-router-bootstrap"
 import { FaUser, FaSignOutAlt } from 'react-icons/fa'; 
@@ -9,12 +10,13 @@ import Login from './screen/Login';
 import ChatDisplay from './screen/ChatDisplay';
 import AdminPanel from './screen/AdminPanel';
 import "./App.css"
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <BrowserRouter>
     <div className="d-flex flex-column site-container active-cont">
-
+    <ToastContainer position="bottom-center" limit={1} />
       <Navbar style={{backgroundColor:"rgb(3, 49, 3)"}}   expand="lg">
         <Container>
           <LinkContainer to="/">
